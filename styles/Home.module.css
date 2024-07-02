@@ -7,6 +7,24 @@
   min-height: 100vh;
 }
 
+.viewport {
+  background-image: url(/samsung-bg.png);
+  background-repeat: no-repeat;
+  width: 425px;
+  min-height: 900px;
+  padding: 50px 15px;
+  /*transform: rotate(45deg);*/
+}
+
+.viewport>section {
+  overflow: hidden;
+  min-height: 800px;
+}
+
+.viewport div {
+  /*transform: rotate(-45deg);*/
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

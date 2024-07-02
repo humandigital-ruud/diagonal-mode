@@ -3,8 +3,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 100vh;
+}
+
+.main a {
+  text-decoration: underline;
 }
 
 .viewport {
@@ -13,16 +17,12 @@
   width: 425px;
   min-height: 900px;
   padding: 50px 15px;
-  /*transform: rotate(45deg);*/
+  margin-top: 70px;
 }
 
 .viewport>section {
   overflow: hidden;
   min-height: 800px;
-}
-
-.viewport div {
-  /*transform: rotate(-45deg);*/
 }
 
 .description {
